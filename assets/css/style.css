@@ -3,3 +3,16 @@
     font-family: "Montserrat", sans-serif;
 
 }
+
+/*home page*/
+#hero-img {
+    max-width: 100%;
+    height: 200px;
+
+}
+
+#hero-img img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
