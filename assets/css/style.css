@@ -16,3 +16,18 @@
     height: auto;
     overflow: hidden;
 }
+
+.bg-img {
+    background-image: url(assets/images/sipg.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+
+.form-container {
+    border: 1px solid;
+    padding: 50px 60px;
+}
+.form-group{
+    padding: 16px;
+}
