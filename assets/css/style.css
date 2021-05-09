@@ -8,19 +8,22 @@
 #hero-img {
     max-width: 100%;
     height: 200px;
+    position: absolute;
 
 }
 
 #hero-img img {
     width: 100%;
     height: auto;
+    position: relative;
     overflow: hidden;
 }
 
-.bg-img {
-    background-image: url(assets/images/sipg.jpg);
-    max-width: 100%;
-    height: auto;
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    /*height: auto;*/
 }
 
 
@@ -28,6 +31,7 @@
     border: 1px solid;
     padding: 50px 60px;
 }
-.form-group{
+
+.form-group {
     padding: 16px;
 }
