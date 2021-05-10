@@ -19,7 +19,8 @@
     overflow: hidden;
 }
 
-body {
+#bg-body{
+    background-image: url(../images/sipg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -34,4 +35,15 @@ body {
 
 .form-group {
     padding: 16px;
+}
+@media only screen and (max-width:770px){
+    .lg-devices{
+        display: none;
+    }
+}
+@media only screen and (min-width:718px) {
+    .sm-devices{
+        display: none;
+
+    }
 }
