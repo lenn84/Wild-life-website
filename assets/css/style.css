@@ -10,7 +10,7 @@
 #hero-img {
     max-width: 100%;
     height: 200px;
-    position: absolute;
+    position: relative;
 
 }
 
@@ -20,19 +20,36 @@
     position: relative;
     overflow: hidden;
 }
-.previews-images,.previews-text{
+
+/* previews page */
+#previews {
+    position: relative;
+}
+
+.previews-images,
+.previews-text {
     border: 1px solid black;
+}
+
+#footer-body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
 }
 
 /*sign-up and sign-in pages*/
 
 #bg-body {
-    background-image: url(../images/sipg.jpg);
+    /* background-image: url(../images/sipg.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
 }
 
+#sign-up {
+    text-decoration: none;
+}
 
 .form-container {
     border: 1px solid;
