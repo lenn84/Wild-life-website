@@ -5,23 +5,62 @@
 
 }
 
+body {
+    max-width: 100%;
+}
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.nav-item,
+.nav-link {
+    font-weight: 600;
+    color: #000000;
+}
+
+#footer-body {
+    position: relative;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-content {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#social-media-links i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 /*home page*/
 
-#hero-img {
-    max-width: 100%;
-    height: 200px;
-    position: relative;
-
-}
-
-#hero-img img {
+.lo-hero-image {
     width: 100%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
+
+    margin-bottom: 100px;
+
 }
 
-/* previews page */
+
+.lo-hero-image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border: 2px solid#000000;
+
+
+    /* crops the image on diffrent screen resolutions to mentain the aspect ratio */
+}
+
+
+
 #previews {
     position: relative;
 }
@@ -31,20 +70,35 @@
     border: 1px solid black;
 }
 
-#footer-body {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: cadetblue;
-}
+
+
+
 
 /*sign-up and sign-in pages*/
 
 #bg-body {
-    /* background-image: url(../images/sipg.jpg); */
+    background-image: url(../images/sipg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+}
+
+.lo-form {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.lo-form-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.lo-form-input label {
+    display: none;
+}
+
+.lo-form-input input {
+    color: #000000;
+    font-weight: 600;
 }
 
 #sign-up {
