@@ -34,9 +34,11 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
 }
-#social-media-links i{
-    margin-right: 10px;
+
+#social-media-links i {
+    margin-left: 10px;
     font-size: 20px;
+    float: right;
 }
 
 /*home page*/
@@ -63,15 +65,53 @@ body {
 
 #previews {
     position: relative;
+
 }
 
-.previews-images,
+.lo-previews-images,
 .previews-text {
     border: 1px solid black;
+    margin: 0 auto;
+    padding: 3px 80px;
 }
 
+.previews-text h1 {
+    font-size: 16px;
+}
 
+.lo-previews-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
 
+/* Gallery page */
+.gallery-container {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 4px;
+}
+
+.lo-gallery-col {
+    padding: 4px;
+    flex: 100%;
+    float: left;
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.lo-gallery-col img {
+    vertical-align: middle;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
 
 
 /*sign-up and sign-in pages*/
