@@ -98,7 +98,7 @@ body {
 }
 
 .lo-gallery-col {
-    padding: 4px;
+    padding: 2px;
     flex: 100%;
     float: left;
     height: 100%;
@@ -111,6 +111,11 @@ body {
     width: 80%;
     height: auto;
     object-fit: cover;
+    margin: 7px;
+    transition: ease-out 1s;
+}
+.lo-gallery-col img:hover{
+    transform: scale(2, 3);
 }
 
 
