@@ -45,7 +45,6 @@ body {
 
 .lo-hero-image {
     width: 100%;
-
     margin-bottom: 100px;
 
 }
@@ -70,19 +69,38 @@ body {
 
 .lo-previews-images,
 .previews-text {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
-    padding: 3px 80px;
+    padding: 3px 90px;
 }
 
 .previews-text h1 {
     font-size: 16px;
 }
 
+/* .lo-previews-images{
+    width: 100%;
+    height: auto;
+} */
 .lo-previews-images img {
     width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+.lo-article-quote {
+    background-image: url(../images/nyuma.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.lo-article-quote p {
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
 }
 
 /* Gallery page */
@@ -125,13 +143,17 @@ body {
 }
 
 .lo-video-size {
-    width: 500px;
+    width: 800px;
     height: auto;
 }
 
 #lo-video {
     width: 100%;
 
+}
+
+.lo-video-content p {
+    font-size: 30px;
 }
 
 .lo-maps-route {
@@ -159,11 +181,12 @@ body {
     padding-left: 15px;
 }
 
-.events-text .events-meta a{
+.events-text .events-meta a {
     text-decoration: none;
     padding: 5px;
 }
-.find-out-more-btn{
+
+.find-out-more-btn {
     padding-top: 5px;
 }
 
@@ -171,6 +194,13 @@ body {
 
 #bg-body {
     background-image: url(../images/sipg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#lo-signup-body {
+    background-image: url(../images/gallery/8.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
