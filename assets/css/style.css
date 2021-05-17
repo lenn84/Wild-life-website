@@ -104,37 +104,56 @@ body {
 }
 
 /* Gallery page */
-.gallery-container {
-    max-width: 100%;
-    box-sizing: border-box;
+#image-gallery {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.gallery-row {
+#gallery-row {
+    /* this ideas were from https://www.youtube.com/watch?v=180p7GLmMyQ */
     display: flex;
-    flex-wrap: nowrap;
-    padding: 4px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.lo-gallery-col {
-    padding: 2px;
-    flex: 100%;
-    float: left;
+.gallery-column {
+    /*used !important to overide the bootstrap "column" class*/
+    flex: 100% !important;
+    /*because they are 10 columns */
+    width: auto !important;
+    overflow: hidden !important;
+    padding: 0 4px !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.gallery-column img {
+    width: 100%;
     height: 100%;
-    margin-top: 10px;
-
+    margin-top: 2%;
+    cursor: pointer;
 }
 
-.lo-gallery-col img {
-    vertical-align: middle;
-    width: 80%;
-    height: auto;
-    object-fit: cover;
-    margin: 7px;
-    transition: ease-out 1s;
+@media only screen and (min-width:680px) {
+    #image-gallery {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .gallery-column {
+        flex: 50% !important;
+    }
 }
 
-.lo-gallery-col img:hover {
-    transform: scale(2, 3);
+@media only screen and (min-width:800px) {
+    #image-gallery {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .gallery-column {
+        flex: 33.3% !important;
+    }
 }
 
 /* projects page */
