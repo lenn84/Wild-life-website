@@ -30,15 +30,16 @@ body {
 .footer-content {
     margin-right: 10px;
     margin-left: 10px;
-    padding-top: 5px;
-    font-weight: 600;
+    padding-top: 10px;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
 #social-media-links i {
-    margin-left: 10px;
-    font-size: 20px;
+    margin-left: 0px;
+    font-size: 32px;
     float: right;
+    padding: 8px;
 }
 
 /*home page*/
@@ -79,7 +80,7 @@ body {
 }
 
 /* .lo-previews-images{
-    width: 100%;
+    width: 60%;
     height: auto;
 } */
 .lo-previews-images img {
@@ -116,6 +117,12 @@ body {
     width: 100%;
 }
 
+#image-gallery h1 {
+    font-size: 38px;
+    font-style: italic;
+    color: rgb(44, 61, 28);
+}
+
 .gallery-column {
     /*used !important to overide the bootstrap "column" class*/
     flex: 100% !important;
@@ -132,12 +139,14 @@ body {
     height: 100%;
     margin-top: 2%;
     cursor: pointer;
+
 }
+
 
 @media only screen and (min-width:680px) {
     #image-gallery {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .gallery-column {
@@ -147,8 +156,8 @@ body {
 
 @media only screen and (min-width:800px) {
     #image-gallery {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .gallery-column {
@@ -207,6 +216,7 @@ body {
 
 .find-out-more-btn {
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*sign-up and sign-in pages*/
