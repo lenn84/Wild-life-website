@@ -12,6 +12,9 @@ body {
 .navbar-brand {
     font-weight: 500;
 }
+.navbar-nav .active a{
+    color: #000000 !important;
+}
 
 .nav-item,
 .nav-link {
