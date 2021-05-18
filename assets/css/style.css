@@ -20,28 +20,41 @@ body {
 }
 
 #footer-body {
-    position: relative;
+    /* position: relative; */
     margin-bottom: 0px;
     width: 100%;
     background-color: #000000;
     color: #ffffff;
 }
-
+#footer-body .row{
+    height: 100px;
+}
+#footer-address a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer-address a:hover{
+    color: #d3d3d3;
+}
 .footer-content {
     margin-right: 10px;
     margin-left: 10px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 #social-media-links i {
     margin-left: 0px;
-    font-size: 32px;
+    font-size: 20px;
     float: right;
-    padding: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #ffffff;
 }
-
+#social-media-links i:hover{
+    color:#d3d3d3;
+}
 /*home page*/
 
 .lo-hero-image {
