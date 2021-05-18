@@ -67,14 +67,20 @@ body {
     position: relative;
 
 }
+#previews .row{
+    margin-bottom: 100px;
+}
 
 .lo-previews-images,
 .previews-text {
-    /* border: 1px solid black; */
-    margin: 0 auto;
-    padding: 3px 90px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-bottom: 20px;
 }
-
+.previews-text{
+    text-align: center;
+    
+}
 .previews-text h1 {
     font-size: 16px;
 }
@@ -87,6 +93,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 4px;
+    border: 1px solid #000000;
 }
 
 .lo-article-quote {
