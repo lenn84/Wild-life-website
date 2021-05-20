@@ -9,7 +9,9 @@ body {
     max-width: 100%;
     margin: 0;
 }
-
+.navbar{
+    border-bottom: 1px solid #000000 !important;
+}
 .navbar-brand {
     font-weight: 500;
 }
