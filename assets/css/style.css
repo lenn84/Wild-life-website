@@ -29,15 +29,15 @@ body {
 }
 
 #footer-body {
-    /* position: relative; */
     margin-bottom: 0px;
     width: 100%;
     background-color: #000000;
     color: #ffffff;
 }
 
-#footer-body .row {
-    height: 100px;
+#footer-body .container-fluid{
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 #footer-address a {
@@ -52,15 +52,13 @@ body {
 .footer-content {
     margin-right: 10px;
     margin-left: 10px;
-    /* padding-top: 10px; */
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 #social-media-links i {
     margin-left: 0px;
-    font-size: 20px;
-    float: right;
+    font-size: 18px;
     padding-left: 8px;
     padding-right: 8px;
     color: #ffffff;
@@ -69,6 +67,17 @@ body {
 #social-media-links i:hover {
     color: #d3d3d3;
 }
+
+#lang img {
+    height: 30px;
+    width: auto;
+    padding-right: 10px;
+}
+
+#lang p {
+    font-weight: 500;
+}
+
 @media only screen and (max-width:717px) {
     .lg-devices {
         display: none;
@@ -80,7 +89,27 @@ body {
         display: none;
 
     }
+
+    #footer-body .container-fluid{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+
+    p.zero-margin{
+        margin-bottom: 0px;
+    }
+    #social-media-links {
+        float: right;
+        text-align: right;
+    }
+
+    #privacy-notice {
+        text-align: right;
+    }
+
 }
+
 /*home page*/
 
 .lo-hero-image {
@@ -349,6 +378,7 @@ body {
     margin-top: 200px;
     margin-bottom: 200px;
 }
+
 .lo-form-sign-up {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -385,10 +415,10 @@ body {
 .form-group {
     padding: 16px;
 }
-@media only screen and (min-width:718px){
-    .lo-form-sign-up{
-        margin-top:200px;
-        margin-bottom:200px;
+
+@media only screen and (min-width:718px) {
+    .lo-form-sign-up {
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
 }
-
