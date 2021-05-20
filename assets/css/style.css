@@ -9,9 +9,11 @@ body {
     max-width: 100%;
     margin: 0;
 }
-.navbar{
+
+.navbar {
     border-bottom: 1px solid #000000 !important;
 }
+
 .navbar-brand {
     font-weight: 500;
 }
@@ -67,13 +69,25 @@ body {
 #social-media-links i:hover {
     color: #d3d3d3;
 }
+@media only screen and (max-width:717px) {
+    .lg-devices {
+        display: none;
+    }
+}
 
+@media only screen and (min-width:718px) {
+    .sm-devices {
+        display: none;
+
+    }
+}
 /*home page*/
 
 .lo-hero-image {
     width: 100%;
     margin-bottom: 100px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/big-tree.jpg);/*colors taken from w3schools*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/big-tree.jpg);
+    /*colors taken from w3schools*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,13 +106,15 @@ body {
 
 
 }
-.lo-hero-text h1{
+
+.lo-hero-text h1 {
     font-weight: 700;
     letter-spacing: 1.5px;
     font-size: 40px;
     margin-bottom: 30px;
 }
-.lo-hero-text p{
+
+.lo-hero-text p {
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 16px;
@@ -176,22 +192,26 @@ body {
     text-align: center;
     font-style: italic;
 }
-@media only screen and (min-width:768px){
-    .lo-hero-text h1{
+
+@media only screen and (min-width:768px) {
+    .lo-hero-text h1 {
         font-size: 50px;
     }
-    .lo-hero-text p{
+
+    .lo-hero-text p {
         font-size: 18px;
     }
 }
+
 @media only screen and(min-width:992px) {
-    .lo-hero-text h1{
+    .lo-hero-text h1 {
         font-size: 60px;
     }
-    .lo-hero-text p{
+
+    .lo-hero-text p {
         font-size: 20px;
     }
-    
+
 }
 
 /* Gallery page */
@@ -325,9 +345,13 @@ body {
     width: 100%;
 }
 
-.lo-form {
+.lo-form-sign-in {
     margin-top: 200px;
     margin-bottom: 200px;
+}
+.lo-form-sign-up {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .lo-form-bg {
@@ -347,8 +371,10 @@ body {
     color: #d3d3d3;
 }
 
-#sign-up {
+#sign-up,
+#sign-in {
     text-decoration: none;
+    font-weight: 600;
 }
 
 .form-container {
@@ -359,16 +385,10 @@ body {
 .form-group {
     padding: 16px;
 }
-
-@media only screen and (max-width:770px) {
-    .lg-devices {
-        display: none;
+@media only screen and (min-width:718px){
+    .lo-form-sign-up{
+        margin-top:200px;
+        margin-bottom:200px;
     }
 }
 
-@media only screen and (min-width:718px) {
-    .sm-devices {
-        display: none;
-
-    }
-}
