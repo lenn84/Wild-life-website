@@ -12,7 +12,8 @@ body {
 .navbar-brand {
     font-weight: 500;
 }
-.navbar-nav .active a{
+
+.navbar-nav .active a {
     color: #000000 !important;
 }
 
@@ -29,16 +30,20 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
-#footer-body .row{
+
+#footer-body .row {
     height: 100px;
 }
-#footer-address a{
+
+#footer-address a {
     text-decoration: none;
     color: #ffffff;
 }
-#footer-address a:hover{
+
+#footer-address a:hover {
     color: #d3d3d3;
 }
+
 .footer-content {
     margin-right: 10px;
     margin-left: 10px;
@@ -55,9 +60,11 @@ body {
     padding-right: 8px;
     color: #ffffff;
 }
-#social-media-links i:hover{
-    color:#d3d3d3;
+
+#social-media-links i:hover {
+    color: #d3d3d3;
 }
+
 /*home page*/
 
 .lo-hero-image {
@@ -83,7 +90,8 @@ body {
     position: relative;
 
 }
-#previews .row{
+
+#previews .row {
     margin-bottom: 100px;
 }
 
@@ -93,14 +101,20 @@ body {
     padding-right: 28px;
     margin-bottom: 20px;
 }
-.previews-text{
+
+.previews-text {
     text-align: center;
-    
-}
-.previews-text h1 {
-    font-size: 16px;
+
 }
 
+.previews-text h1 {
+    font-size: 16px;
+    text-decoration: none;
+}
+.previews-text p{
+    font-weight: 800;
+    font-style: oblique;
+}
 /* .lo-previews-images{
     width: 60%;
     height: auto;
@@ -116,8 +130,8 @@ body {
     background-image: url(../images/nyuma.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 15px;
-    margin-top: 20px;
+    /* padding-top: 15px; */
+    margin-top: 10px;
     width: 100%;
 }
 
@@ -252,7 +266,7 @@ body {
 }
 
 #lo-signup-body {
-    background-image: url(../images/gallery/8.jpg);
+    background-image: url(../images/gallery/30.jpg);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -274,6 +288,10 @@ body {
 .lo-form-input input {
     color: #000000;
     font-weight: 600;
+}
+
+.lo-form-input p {
+    color: #d3d3d3;
 }
 
 #sign-up {
