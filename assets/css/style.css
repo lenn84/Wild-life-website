@@ -35,7 +35,7 @@ body {
     color: #ffffff;
 }
 
-#footer-body .container-fluid{
+#footer-body .container-fluid {
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -90,15 +90,16 @@ body {
 
     }
 
-    #footer-body .container-fluid{
+    #footer-body .container-fluid {
         padding-bottom: 50px;
         padding-top: 50px;
     }
 
 
-    p.zero-margin{
+    p.zero-margin {
         margin-bottom: 0px;
     }
+
     #social-media-links {
         float: right;
         text-align: right;
@@ -302,6 +303,23 @@ body {
     .gallery-column {
         flex: 33.3% !important;
     }
+}
+
+/*about-us page*/
+.lo-about-us {
+    margin-top: 100px;
+}
+
+.about-us img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.about-us iframe {
+    width: 100%;
+    height: 550px;
+
 }
 
 /* projects page */
