@@ -314,6 +314,7 @@ body {
     margin-bottom: 20px;
     width: 100%;
     height: auto;
+    box-shadow: 8px 4px rgb(148, 148, 148);
 }
 
 .about-us iframe {
@@ -341,6 +342,41 @@ body {
 .about-us-content p{
     font-size: 18px;
     padding: 2px;
+}
+.lo-acc-link{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 700;
+}
+.lo-acc-link:hover{
+    color: rgb(17, 117, 17);
+}
+.lo-acc-item{
+    background-color: #d3d3d3;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding: 10px;
+}
+.lo-answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+}
+.lo-answer::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 90%;
+    background-color: rgb(38, 160, 1);
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+.lo-answer p{
+    padding: 15px;
+}
+.lo-acc-item:target .lo-answer{
+    max-height: 200px;
 }
 
 /* projects page */
