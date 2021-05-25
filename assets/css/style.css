@@ -78,13 +78,13 @@ body {
     font-weight: 500;
 }
 
-@media only screen and (max-width:717px) {
+@media only screen and (max-width:767px) {
     .lg-devices {
         display: none;
     }
 }
 
-@media only screen and (min-width:718px) {
+@media only screen and (min-width:768px) {
     .sm-devices {
         display: none;
 
@@ -322,47 +322,58 @@ body {
     height: 550px;
 
 }
-.about-us-content a{
+
+.about-us-content a {
     text-decoration: none;
 }
-.about-us-content #lo-about-icons{
+
+.about-us-content #lo-about-icons {
     font-size: 20px;
     padding: 5px;
 }
-.about-us-content i{
+
+.about-us-content i {
     padding: 5px;
 }
-.about-us-content i:hover{
+
+.about-us-content i:hover {
     color: #3b3c4191;
 }
-.about-us-content h1{
+
+.about-us-content h1 {
     font-weight: 800;
     letter-spacing: 1.2px;
 }
-.about-us-content p{
+
+.about-us-content p {
     font-size: 18px;
     padding: 2px;
 }
-.lo-acc-link{
+
+.lo-acc-link {
     text-decoration: none;
-    color:#000000;
+    color: #000000;
     font-weight: 700;
 }
-.lo-acc-link:hover{
+
+.lo-acc-link:hover {
     color: rgb(17, 117, 17);
 }
-.lo-acc-item{
+
+.lo-acc-item {
     background-color: #d3d3d3;
     margin-bottom: 8px;
     border-radius: 4px;
     padding: 10px;
 }
-.lo-answer{
+
+.lo-answer {
     max-height: 0;
     overflow: hidden;
     position: relative;
 }
-.lo-answer::before{
+
+.lo-answer::before {
     content: "";
     position: absolute;
     width: 8px;
@@ -372,14 +383,29 @@ body {
     left: 0%;
     transform: translateY(-50%);
 }
-.lo-answer p{
+
+.lo-answer p {
     padding: 15px;
 }
-.lo-acc-item:target .lo-answer{
+
+.lo-acc-item:target .lo-answer {
     max-height: 200px;
 }
 
 /* projects page */
+.project-header {
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+
+}
+
+#vid-container {
+    margin-bottom: 50px;
+}
+
 .lo-project-page {
     margin-top: 100px;
 }
@@ -413,24 +439,56 @@ body {
 
 #gmap_canvas {
     width: 100%;
+    height: 200px;
 }
 
+.single-upcoming-events-area h2 {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .single-upcoming-events-area .upcoming-events-thumbnail img {
     height: auto;
-    width: 100%;
+    width: 80%;
+    text-align: center;
     border-radius: 5px;
-    padding-left: 15px;
 }
 
 .events-text .events-meta a {
     text-decoration: none;
     padding: 5px;
+    text-align: center;
+    font-size: 20px;
 }
 
-.find-out-more-btn {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.events-text p {
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+.events-text button{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 8px;
+}
+
+.find-out-more a{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:768px) {
+    #gmap_canvas{
+        height: 400px;
+    }
 }
 
 /*sign-up and sign-in pages*/
@@ -491,7 +549,7 @@ body {
     padding: 16px;
 }
 
-@media only screen and (min-width:718px) {
+@media only screen and (min-width:768px) {
     .lo-form-sign-up {
         margin-top: 200px;
         margin-bottom: 200px;
