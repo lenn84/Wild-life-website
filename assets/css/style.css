@@ -154,15 +154,6 @@ body {
 
 
 
-/* .lo-hero-image img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-    border: 2px solid#000000; */
-
-
-/* crops the image on diffrent screen resolutions to mentain the aspect ratio */
-/* } */
 
 
 
@@ -197,10 +188,7 @@ body {
     font-style: oblique;
 }
 
-/* .lo-previews-images{
-    width: 60%;
-    height: auto;
-} */
+
 .lo-previews-images img {
     width: 100%;
     height: auto;
@@ -362,9 +350,9 @@ body {
 
 .lo-acc-item {
     background-color: #d3d3d3;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     border-radius: 4px;
-    padding: 10px;
+    padding: 12px;
 }
 
 .lo-answer {
@@ -376,7 +364,7 @@ body {
 .lo-answer::before {
     content: "";
     position: absolute;
-    width: 8px;
+    width: 5px;
     height: 90%;
     background-color: rgb(38, 160, 1);
     top: 50%;
@@ -385,173 +373,187 @@ body {
 }
 
 .lo-answer p {
-    padding: 15px;
+    padding: 12px;
+    padding-left: 16px;
 }
 
 .lo-acc-item:target .lo-answer {
     max-height: 200px;
 }
 
-/* projects page */
-.project-header {
-    text-align: center;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
-    color: #000000;
-    font-weight: 700;
-
-}
-
-#vid-container {
-    margin-bottom: 50px;
-}
-
-.lo-project-page {
-    margin-top: 100px;
-}
-
-.lo-video-size {
-    width: 800px;
-    height: auto;
-}
-
-#lo-video {
-    width: 100%;
-
-}
-
-.lo-video-content p {
-    font-size: 30px;
-}
-
-.lo-maps-route {
-    position: relative;
-    height: auto;
-    width: 100%;
-}
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: auto;
-    width: 100%;
-}
-
-#gmap_canvas {
-    width: 100%;
-    height: 200px;
-}
-
-.single-upcoming-events-area h2 {
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.single-upcoming-events-area .upcoming-events-thumbnail img {
-    height: auto;
-    width: 80%;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.events-text .events-meta a {
-    text-decoration: none;
-    padding: 5px;
-    text-align: center;
-    font-size: 20px;
-}
-
-.events-text p {
-    font-size: 18px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 10px;
-}
-.events-text button{
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 8px;
-}
-
-.find-out-more a{
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-decoration: none;
-}
-
-@media only screen and (min-width:768px) {
-    #gmap_canvas{
-        height: 400px;
+@media only screen and (min-width:375px) {
+    .lo-acc-item {
+        margin-bottom: 18px;
     }
+
+    .lo-acc-item:target .lo-answer {
+        max-height: 400px;
+    }    
 }
+    /* projects page */
+    .project-header {
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        color: #000000;
+        font-weight: 700;
 
-/*sign-up and sign-in pages*/
+    }
 
-#bg-body {
-    background-image: url("../images/sipg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-}
+    #vid-container {
+        margin-bottom: 50px;
+    }
 
-#lo-signup-body {
-    background-image: url(../images/gallery/30.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-}
+    .lo-project-page {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
 
-.lo-form-sign-in {
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
+    .lo-video-size {
+        width: 800px;
+        height: auto;
+    }
 
-.lo-form-sign-up {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+    #lo-video {
+        width: 100%;
 
-.lo-form-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
+    }
 
-.lo-form-input label {
-    display: none;
-}
+    .lo-video-content p {
+        font-size: 30px;
+    }
 
-.lo-form-input input {
-    color: #000000;
-    font-weight: 600;
-}
+    .lo-maps-route {
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
 
-.lo-form-input p {
-    color: #d3d3d3;
-}
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: auto;
+        width: 100%;
+    }
 
-#sign-up,
-#sign-in {
-    text-decoration: none;
-    font-weight: 600;
-}
+    #gmap_canvas {
+        width: 100%;
+        height: 200px;
+    }
 
-.form-container {
-    border: 1px solid;
-    padding: 50px 60px;
-}
+    .single-upcoming-events-area h2 {
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
-.form-group {
-    padding: 16px;
-}
+    .single-upcoming-events-area .upcoming-events-thumbnail img {
+        height: auto;
+        width: 80%;
+        text-align: center;
+        border-radius: 5px;
+    }
 
-@media only screen and (min-width:768px) {
-    .lo-form-sign-up {
+    .events-text .events-meta a {
+        text-decoration: none;
+        padding: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .events-text p {
+        font-size: 18px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 10px;
+    }
+
+    .events-text button {
+        text-align: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        
+    }
+
+    .find-out-more a {
+        text-align: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        text-decoration: none;
+    }
+
+    @media only screen and (min-width:768px) {
+        #gmap_canvas {
+            height: 400px;
+        }
+    }
+
+    /*sign-up and sign-in pages*/
+
+    #bg-body {
+        background-image: url("../images/sipg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    #lo-signup-body {
+        background-image: url(../images/gallery/30.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .lo-form-sign-in {
         margin-top: 200px;
         margin-bottom: 200px;
     }
-}
+
+    .lo-form-sign-up {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .lo-form-bg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    }
+
+    .lo-form-input label {
+        display: none;
+    }
+
+    .lo-form-input input {
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .lo-form-input p {
+        color: #d3d3d3;
+    }
+
+    #sign-up,
+    #sign-in {
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .form-container {
+        border: 1px solid;
+        padding: 50px 60px;
+    }
+
+    .form-group {
+        padding: 16px;
+    }
+
+    @media only screen and (min-width:768px) {
+        .lo-form-sign-up {
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+    }
