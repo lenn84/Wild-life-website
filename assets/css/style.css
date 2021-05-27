@@ -471,6 +471,7 @@ body {
         margin-left: 20%;
         margin-right: 20%;
         margin-bottom: 10px;
+        font-weight: 500;
     }
 
     .events-text button {
@@ -480,7 +481,7 @@ body {
         margin-right: 40%;
         border-radius: 8px;
         margin-bottom: 10px;
-        background-color: rgb(95, 107, 96);
+        background-color: rgb(18, 95, 184);
         
     }
 
