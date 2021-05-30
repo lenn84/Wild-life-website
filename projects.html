@@ -53,6 +53,19 @@
     </header>
 
     <section class="projects-intro">
+        <h1 class="projects-body-header">
+            Get involved in our projects!
+        </h1>
+
+        <video autoplay muted loop id="lo-video">
+            <source src="assets/images/vide1.mp4" type="video/mp4">
+        </video>
+
+        <p class="projects-body-paragraph">From hand feeding Elephants, to adopting orphaned elephants to taking
+            breathtaking balloon
+            safaris at dawn. The beautiful diversity of landscapes, animals, bird and plant life and
+            fascinating cultures all add up to the number of activities offered in wanyamapori sanctuary.
+        </p>
 
     </section>
     <hr>
@@ -207,7 +220,7 @@
         <h1 class="projects-body-header">
             The Majestic Rhino that faces extinction.
         </h1>
-        <img  src="assets/images/rhino1.jpg" alt="rhino" class="projects-body-thumbnail">
+        <img src="assets/images/rhino1.jpg" alt="rhino" class="projects-body-thumbnail">
         <div class="container projects-body-calendar">
             <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Save+them+from+extinction&location=Giraffe+Manor+Nairobi&dates=20210731T002300Z%2F20210531T002300Z"
                 target="_blank">
@@ -239,6 +252,36 @@
             Call to find out more
         </a>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="map-messagebox" tabindex="-1" aria-labelledby="map-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Click on the map for Navigation.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="lo-maps">
+                            <div class="lo-maps-route">
+                                <div class="gmap_canvas">
+                                    <iframe id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=giraffe%20manor&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer id="footer-body">
         <div class="container-fluid">
