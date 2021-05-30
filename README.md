@@ -240,8 +240,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The grid system that bootstrap implements has been used in multiple occasions in the website.
 
+### Content.
 
+-	The website uses an array of images to bring about the natural feel of the wild in the comfort of the user.
 
+-	There is selective use of the colour green just to go I hand with nature feel of the website.
+
+-	 I implemented the use of a message box in the projects page with a click of the vibrant yellow button.
+
+-	To give the website a more professional feel I made use of the Sign In / Sign Up page. In the future I hope the page would be fully functional if need be.
+
+### Media
+
+- Pertaining icons, all icons were sourced from [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+
+- All videos present in the website were sourced from [Pexels](https://www.pexels.com/)
+
+- For all the images that make the larger portion of the website are courtey of [Unsplash](https://unsplash.com/)
+
+- The main font "montserrat font" downloaded from [Google Fonts](https://fonts.google.com/)
+
+## Acknowledgements
+
+-   My Mentor for continuous helpful feedback 
+
+- Tutor Suport from fellow student for their help with Gitpod and for providing unlimited Gitpod usage to our development team. 
 
 
 
