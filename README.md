@@ -67,6 +67,10 @@ The endpoint is to bring about awareness through use of mass media of the beauty
 
 - ### Wireframe
 
-- My wireframe \- [to see]()
+  - My wireframe \- [To See](https://github.com/lenn84/Wild-life-website/files/6566148/my-project---Wireframe-cc-Premium.pdf)
+
+- ### FEATURES
+
+  - Responsiveness on all device sizes. The website is specifically configured for mobile devices, tablets, laptops, and large desktops.
 
      
