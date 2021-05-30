@@ -170,6 +170,80 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
           - In every section there is a vibrant button that opens up message box pertaining location of the place on Google maps. 
           - Just in case the user is missing some details and wants any form of assistance or additional information, there is an option to call “Call to find out more”
 
+      5. I want to add a mock-up of the Sign-In page and the Sign-Up page utility to make the website look more stellar.
+
+          - The user can press on the Sign In / Sign Up link in the navigation bar to access the Sign In page.
+          - The user would be welcomed with a sign in page with a lion at the background. The user will also be prompted to fill the section provided with accurate details such as email and password.
+          - The email input should have the correct format of @.
+          - For the sign up page, within the sign in page, for people without accounts already will have the option to click on the link “Don’t have an account?”.
+          - This will open the Sign-Up page where the user will be prompted to fill in appropriate details corresponding to the input field.
+
+      6. I want to have other social medial platforms in the footer to enable easy sharing of ideas between multiple users and the world at large.
+
+          - On the far right we have three main social media icons that on a click move the respective sign in page of the website.
+          - In addition, I added the map icon that is a direct link to Google maps.
+
+
+## Further Testing.
+
+- The website was tested on Google Chrome, Microsoft edge and safari browser.
+
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPad, iPad Pro & iPhone X.
+
+- A large amount of testing was done to ensure that all pages were linking correctly.
+
+- Some Friends and Family were asked to review the site and documentation to point out any bugs or experience issues.
+
+## Known Bugs.
+
+- The images in the gallery page take a significant amount of time to load. Regardless all images load but after having taken a while.
+
+- On closer inspection the image loading issue is only present in the chrome browser.
+
+## Development Obstacles.
+
+- Wireframes.
+
+     1. The wireframe platform was not the best place to style the website. Due to its limited time offer of the free trial I was left with a rough sketch of the website.
+
+     2. I had to work with what I had even if it wasn’t a good experience but the website was up to expectations.
+
+- Code Refactoring.
+
+     1. Organization of the codes wants in mind since it was my first major project as an introduction to web development.
+
+     2. Experience is built through repeated exercises and indeed I have been able to collect a few skills to build up my experience.
+
+- Commit Messages.
+
+     1. This was the most challenging part since the start of the website.
+
+     2. It was challenging to write commit massages hence became hard to go back to initial commits for correction purposes. 
+
+     3. Also, this can be put in same context as lacking the experience since it was my first project.
+
+     4. As of now the commit messages are more professional and easier to follow up on code additions and omissions.
+
+## Deployment
+
+- The website was deployed to [Github pages](https://pages.github.com/). 
+
+- For your refrence [ref](https://lenn84.github.io/Wild-life-website/).
+
+## Credits
+
+### Code
+
+- Most of the codes were sourced from W3School and Bootstrap.
+
+- In addition, YouTube channels such as [Fullyworld Web Tutorials](https://www.youtube.com/channel/UC3XkkDSSGqaBPimn22vCHDg) was of assistance in terms of exposure to limitless use of [Bootstrap](https://getbootstrap.com/)
+
+- The grid system that bootstrap implements has been used in multiple occasions in the website.
+
+
+
+
+
 
 
 
