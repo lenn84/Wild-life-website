@@ -282,6 +282,14 @@ h1 {
     font-style: italic;
     color: rgb(44, 61, 28);
 }
+#image-gallery .container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#image-gallery .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 .gallery-column {
     /*used !important to overide the bootstrap "column" class*/
