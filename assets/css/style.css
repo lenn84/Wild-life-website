@@ -8,6 +8,10 @@
 body {
     max-width: 100%;
     margin: 0;
+    
+}
+h1 {
+    font-size: 32px;
 }
 
 .col-sm-12 {
@@ -349,7 +353,7 @@ body {
 }
 
 .about-us-content p {
-    text-align: justify;
+    text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -396,7 +400,7 @@ body {
 }
 
 .lo-faq{
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 30px;
     width: 100%;
     margin-left: 0;
@@ -405,6 +409,32 @@ body {
     padding-right: 0;
 
 
+}
+.lo-faq h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.lo-faq #accordion{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-width: 99%;
+}
+.card button{
+    color: #000000;
+    font-weight: 600;
+}
+
+.lo-faq .btn-link:hover, .lo-faq .btn-link, .lo-faq .btn-link:focus, .lo-faq .btn, .lo-faq .btn:focus{
+    text-decoration: none;
+}
+.card-header{
+    padding: 20px;
+}
+@media only screen and (min-width:992px) {
+    .about-us-content p{
+        text-align: justify;
+    }
 }
 
 /* projects page */
