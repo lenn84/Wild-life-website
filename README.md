@@ -1,6 +1,6 @@
 <h1 align="center">Wanyamapori Sanctuary</h1>
 
-[For your refrence](https://lenn84.github.io/Wild-life-website/)
+[For your reference](https://lenn84.github.io/Wild-life-website/)
 
 The main purpose of Wanyamapori sanctuary website is to make the public aware of the dangers the wildlife is experiencing. In addition is to promote the efforts of the sanctuary in protecting and taking care of the endangered wild animals as by seen with programs set in place to educate the public and various activities.
 
@@ -61,8 +61,8 @@ The endpoint is to bring about awareness through use of mass media of the beauty
 
     - #### Images,Videos and other Forms of Media
 
-        1. In this website there is an extensive use of images and videos to give out nature feel within the websiteRegarding images, only the hero image in the home page has text on it and the image is a background image. This sets the image aside from the other images that are in the foreground of every page.I ensured all the images are in .PNG format and were sourced from www.unsplash.com.And all the images present in all pages are responsive. 
-        2. The website has a few videos and were sourced from www.pexels.com. All videos are responsive.
+        1. In this website there is an extensive use of images and videos to give out nature feel within the websiteRegarding images, only the hero image in the home page has text on it and the image is a background image. This sets the image aside from the other images that are in the foreground of every page.I ensured all the images are in .PNG format and were sourced from [Unsplash](www.unsplash.com).And all the images present in all pages are responsive. 
+        2. The website has a few videos and were sourced from [Pexels](www.pexels.com). All videos are responsive.
         3. For the maps displayed in the website, they were embedded in iframe tag and are all responsive.
 
 - ### Wireframe
@@ -123,8 +123,8 @@ The endpoint is to bring about awareness through use of mass media of the beauty
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flenn84.github.io%2FWild-life-website%2F)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -199,6 +199,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - The images in the gallery page take a significant amount of time to load. Regardless all images load but after having taken a while.
 
 - On closer inspection the image loading issue is only present in the chrome browser.
+
+-On smaller screens on the gallery page, the images are more to the left tahn the center hence leaving a noticeable gap on the right margin.
 
 ## Development Obstacles.
 
