@@ -432,7 +432,9 @@ h1 {
     color: #000000;
     font-weight: 600;
 }
-
+.lo-faq .btn-link:hover{
+    color: #2ca707ab;
+}
 .lo-faq .btn-link:hover, .lo-faq .btn-link, .lo-faq .btn-link:focus, .lo-faq .btn, .lo-faq .btn:focus{
     text-decoration: none;
 }
