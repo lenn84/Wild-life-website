@@ -148,7 +148,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
           - The title “weather” is just after the weather and to its immediate right is three “weather element icons” that are links the weather forecast of the organization’s origins.
           - Then a vivid description of the climate of the organization’s origin.
           - A giraffe video to give a visual cue of the organization’s involvement with wildlife.
-          - Below that is the title “Nature” followed by a “paw” icon that links to www.wikipedia.com on wildlife.
+          - Below that is the title “Nature” followed by a “paw” icon that links to [Wikipedia](www.wikipedia.com) on wildlife.
           - The article below give a brief description of the wildlife that thrive in the surrounding area of the organization.
           - The map is very useful for the user to get to know the exact point or place the organization in situated in the world.
           - This is followed by brief description of the organizations parent country of origin.
@@ -200,7 +200,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - On closer inspection the image loading issue is only present in the chrome browser.
 
--On smaller screens on the gallery page, the images are more to the left tahn the center hence leaving a noticeable gap on the right margin.
 
 ## Development Obstacles.
 
