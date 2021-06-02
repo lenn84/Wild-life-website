@@ -86,11 +86,11 @@ The endpoint is to bring about awareness through use of mass media of the beauty
  
  2.[CSS3](https://en.wikipedia.org/wiki/CSS)
  
- 3.[BOOTSTRAP V5.0](https://getbootstrap.com/)
+ 3.[BOOTSTRAP V4.1](https://getbootstrap.com/)
  
  ### Frameworks, Libraries & Programs Used
  
- 1.[Bootstrap v5.0:](https://getbootstrap.com/)
+ 1.[Bootstrap v4.1:](https://getbootstrap.com/)
  
  - Bootstrap was used in an array of areas such as the navigation bar and gallery that bootstrap was extensively used.
 
