@@ -440,9 +440,14 @@ h1 {
     overflow-x: hidden;
     max-width: 99%;
 }
+.card{
+    border: none !important;
+}
 .card button{
     color: #000000;
     font-weight: 600;
+    padding: 0 0 !important;
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
 }
 .lo-faq .btn-link:hover{
     color: #2ca707ab;
@@ -452,6 +457,11 @@ h1 {
 }
 .card-header{
     padding: 20px;
+}
+.card-header h5{
+    text-align: left !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
 }
 @media only screen and (min-width:992px) {
     .about-us-content p{
