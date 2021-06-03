@@ -19,9 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!--CSS link-->
-    <link rel="icon" 
-      type="image/ico" 
-      href="assets/fav/fav-image.ico">
+    <link rel="icon" type="image/ico" href="assets/fav/fav-image.ico">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <!--Get your code at fontawesome.com-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -39,8 +37,8 @@
                         class="lg-devices">WANYAMAPORI SANCTUARY</span></a>
                 <!--toggler for smaller screens-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarTogglerController" aria-controls="navbarTogglerController"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-target="#navbarTogglerController" aria-controls="navbarTogglerController" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerController">
@@ -102,7 +100,7 @@
             to step in and volunteer at a lion conservation project or big cat sanctuary!
         </p>
 
-        <button class="projects-body-modal" data-bs-toggle="modal" data-bs-target="#map-messagebox">
+        <button class="projects-body-modal" data-toggle="modal" data-target="#map-messagebox">
             Know the place <i class="fa fa-angle-double-right"></i>
         </button>
 
@@ -138,7 +136,7 @@
             and some smaller prey up to a height of 15meters.
         </p>
 
-        <button class="projects-body-modal" data-bs-toggle="modal" data-bs-target="#map-messagebox">
+        <button class="projects-body-modal" data-toggle="modal" data-target="#map-messagebox">
             Know the place <i class="fa fa-angle-double-right"></i>
         </button>
 
@@ -174,7 +172,7 @@
             interact with them and get to educate the general public.
         </p>
 
-        <button class="projects-body-modal" data-bs-toggle="modal" data-bs-target="#map-messagebox">
+        <button class="projects-body-modal" data-toggle="modal" data-target="#map-messagebox">
             Know the place <i class="fa fa-angle-double-right"></i>
         </button>
 
@@ -210,7 +208,7 @@
             the conservation activities that we do.
         </p>
 
-        <button class="projects-body-modal" data-bs-toggle="modal" data-bs-target="#map-messagebox">
+        <button class="projects-body-modal" data-toggle="modal" data-target="#map-messagebox">
             Know the place <i class="fa fa-angle-double-right"></i>
         </button>
 
@@ -247,7 +245,7 @@
             goals and achieve a better and more sustainable future for all.
         </p>
 
-        <button class="projects-body-modal" data-bs-toggle="modal" data-bs-target="#map-messagebox">
+        <button class="projects-body-modal" data-toggle="modal" data-target="#map-messagebox">
             Know the place <i class="fa fa-angle-double-right"></i>
         </button>
 
@@ -258,28 +256,25 @@
 
     <!-- Modal -->
     <div class="modal fade" id="map-messagebox" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Click on the map for Navigation.</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="modal-lable">Click on the map for Navigation.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
-                        <div class="lo-maps">
-                            <div class="lo-maps-route">
-                                <div class="gmap_canvas">
-                                    <iframe id="gmap_canvas"
-                                        src="https://maps.google.com/maps?q=giraffe%20manor&t=&z=13&ie=UTF8&iwloc=&output=embed">
-                                    </iframe>
-                                </div>
-                            </div>
-                        </div>
+
+                    <div class="gmap_canvas">
+                        <iframe id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=giraffe%20manor&t=&z=13&ie=UTF8&iwloc=&output=embed">
+                        </iframe>
 
                     </div>
+
+
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
