@@ -306,10 +306,19 @@ h1 {
     width: 100%;
     height: 100%;
     margin-top: 2%;
-    cursor: pointer;
 
 }
-
+.lo-cutoff .white-bg{/*crops out the last row of images to have all images end on the same line*/
+    height: 200px;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: -300px;
+    margin-bottom: -100px; /*needed to push the footer upwards*/
+    background: linear-gradient(#ffffff 50%, #000000 50%);
+    z-index: 2; /*z-index was used to give greater stack order to the div*/
+    position: relative;
+    display: none; /*not need for mobile devices*/
+}
 
 @media only screen and (min-width:680px) {
     #image-gallery {
@@ -319,6 +328,9 @@ h1 {
 
     .gallery-column {
         flex: 50% !important;
+    }
+    .lo-cutoff .white-bg{
+        display: block;
     }
 }
 
