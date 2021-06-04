@@ -537,6 +537,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgb(235, 221, 32);
+    cursor: pointer;
 }
 
 .projects-body-call {
