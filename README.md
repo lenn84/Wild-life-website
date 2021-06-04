@@ -200,6 +200,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - On closer inspection the image loading issue is only present in the chrome browser.
 
+- In the gallery page one will notice that the last images at the bottom of the pagea are slightly croped out in larger screen devices.This is because I couldnt make the images end in the same line hence use of an empty div to make the illusion that all iamges end in the same line. 
+
 
 ## Development Obstacles.
 
