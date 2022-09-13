@@ -112,7 +112,7 @@ The endpoint is to bring about awareness through use of mass media of the beauty
 
  6.[Gitpod:](https://www.gitpod.io/docs/)
  
- - Gitpod was the sapce used to write all of the code, commit and push changes in the git pod terminal.
+ - Gitpod was the space used to write all of the code, commit and push changes in the git pod terminal.
 
  8.[Wireframe.cc:](https://wireframe.cc/)
  
